@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(43, 107, 226);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-container{
+  padding: 5rem;
+  background-color: white;
+  text-align: center;
+}
+
+input{
+  width: 200px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+input[type="submit"]{
+  width: 222px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.error{
+  text-align: left;
+  margin: 0;
+  color: red;
+  font-size: 12px;
+  font-family: sans-serif;
+}
